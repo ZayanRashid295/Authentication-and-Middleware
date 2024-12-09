@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In</title>
+</head>
+<body>
+  <h1>Sign In</h1>
+  <form id="signin-form" method="POST" action="/signinuser">
+    <label for="user_id">User ID:</label>
+    <input type="text" id="user_id" name="user_id" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="submit" id="submit_button">Sign In</button>
+  </form>
+  <a href="/signupuser">Click here to signup!</a>
+</body>
+</html>

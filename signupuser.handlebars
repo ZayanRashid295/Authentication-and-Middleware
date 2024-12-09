@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <form id="signup-form" method="POST" action="/signupuser">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required>
+    <label for="userId">User ID:</label>
+    <input type="text" id="userId" name="userId" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required>
+    <label for="favoriteQuote">Favorite Quote:</label>
+    <input type="text" id="favoriteQuote" name="favoriteQuote" required>
+    <label for="backgroundColor">Background Color:</label>
+    <input type="color" id="backgroundColor" name="backgroundColor" required>
+    <label for="fontColor">Font Color:</label>
+    <input type="color" id="fontColor" name="fontColor" required>
+    <label for="role">Role:</label>
+    <select id="role" name="role" required>
+      <option value="admin">Admin</option>
+      <option value="user">User</option>
+    </select>
+    <button type="submit" id="submitButton">Sign Up</button>
+  </form>
+  <a href="/signinuser">Already have an account? Click here to sign-in</a>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Page</title>
+</head>
+<body>
+  <div id="userView">
+    <p id="welcome">Welcome {{firstName}} {{lastName}}, the time is now: {{currentTime}} and the current date is {{currentDate}}. Your role in the system is: {{role}}.</p>
+    <p id="quote">Favorite Quote: {{favoriteQuote}}</p>
+    {{#if isAdmin}}
+      <a id="adminLink" href="/administrator">Administrator Page</a>
+    {{/if}}
+    <a id="signoutLink" href="/signoutuser">Sign out</a>
+  </div>
+</body>
+</html>

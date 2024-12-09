@@ -1,0 +1,17 @@
+{
+    "name": "lab10",
+    "version": "1.0.0",
+    "description": "Lab 10 - User Authentication and Middleware",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "express": "^4.17.1",
+      "express-handlebars": "^8.0.1",
+      "express-session": "^1.17.1",
+      "mongodb": "^4.1.0"
+    }
+  }
